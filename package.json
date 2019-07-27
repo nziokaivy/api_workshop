@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-preset-airbnb": "^4.0.1",
     "babel-watch": "^7.0.0",
     "celebrate": "^10.0.1",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "morgan": "^1.9.1"
   }
